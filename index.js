@@ -87,4 +87,4 @@ function buttonAnimation(key){
         }, 100)
 
 
-}
+};

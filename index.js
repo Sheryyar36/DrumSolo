@@ -3,8 +3,6 @@ var buttonSelector = document.querySelectorAll(".drum");
 
 for(var i = 0; i < buttonSelector.length; i++){
 
-    console.log(i);
-
     buttonSelector[i].addEventListener("click", function() {
         
         var key = this.innerHTML;

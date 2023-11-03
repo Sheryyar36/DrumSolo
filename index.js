@@ -9,7 +9,7 @@ for(var i = 0; i < buttonSelector.length; i++){
 
         makeSound(key);
 
-        buttonAnimation(key)
+        buttonAnimation(key);
 
     });
 
@@ -19,7 +19,7 @@ document.addEventListener("keydown", function(event){
 
     makeSound(event.key);
 
-    buttonAnimation(event.key)
+    buttonAnimation(event.key);
 
 });
 

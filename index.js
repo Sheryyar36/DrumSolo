@@ -86,5 +86,4 @@ function buttonAnimation(key){
         activeButton.classList.remove("pressed");
         }, 100)
 
-
 };
